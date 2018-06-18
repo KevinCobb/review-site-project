@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Review</title>
+</head>
+<body>
+<h2>
+	<strong>Kevin's Review:</strong>
+</h2>
+
+<h1>
+	<span th:text="${review.title}"></span>
+</h1>
+
+<h3>
+    <span th:text="${review.catagory}"></span>
+</h3>
+    <img th:src="${review.imgUrl}" width="387" height="473" alt="Image size dimensions" />
+<p>
+    <h3>	
+    	<span th:text="${review.content}"></span>
+    </h3>
+</p>
+
+<p>
+	
+</p>
+
+<blockquote><em>
+   Known for high budget blockbuster films, the 80s and 90s became the launching point for several large movie franchises. These have catapulted the use of CGI and various special effects into a must have for any good present day action films. 
+</em></blockquote>
+
+<img th:src="@{/img/reellong.jpg}"/>
+
+</body>
+</html>
